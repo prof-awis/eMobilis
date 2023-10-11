@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        width: 20%;
+        box-shadow: 0.5rem 0.5rem 2rem rgb(106, 102, 102);
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 1rem;
+        padding: 2rem;
+      }
+
+      .form-input {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        padding: 0.5rem 0;
+      }
+
+      .form-input > input {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid green;
+      }
+
+      .form-button {
+        width: 100%;
+        display: flex;
+      }
+
+      button {
+        width: 100%;
+        color: white;
+        background: green;
+        padding: 1rem 0.5rem;
+        outline: none;
+        border: none;
+      }
+      button:hover {
+        background: rgb(8, 164, 8);
+      }
+      @media screen and (max-width: 600px) {
+        form {
+          width: 70%;
+        }
+
+        button {
+          background-color: black;
+          color: white;
+        }
+        button:hover {
+          background: rgb(34, 34, 34);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="form-input">
+        <label for="">Full Names</label>
+        <input type="text" name="" id="" placeholder="Jane Doe" />
+      </div>
+      <div class="form-input">
+        <label for="">Email</label>
+        <input type="email" name="" id="" placeholder="joe@gmail.com" />
+      </div>
+      <div class="form-input">
+        <label for="">Phone Number</label>
+        <input type="tel" name="" id="" placeholder="+254 7xx xxx xxxx" />
+      </div>
+      <div class="form-input">
+        <label for="">Date of Birth</label>
+        <input type="date" name="" id="" />
+      </div>
+      <div class="form-input">
+        <label for="">Password</label>
+        <input type="password" name="" id="" />
+      </div>
+
+      <div class="form-button">
+        <button type="button">Register</button>
+      </div>
+    </form>
+  </body>
+</html>

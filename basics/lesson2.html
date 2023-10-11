@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Important tags</title>
+
+    <style>
+      body {
+        background-color: rgb(215, 206, 206);
+      }
+      h1 {
+        color: rgb(152, 70, 11);
+      }
+
+      p {
+        color: rgb(47, 45, 45);
+      }
+
+      span {
+        color: crimson;
+      }
+
+      /*The last rule wins*/
+      #first-span {
+        color: red;
+      }
+      #second-span {
+        color: blue;
+      }
+
+      .a {
+        color: rgb(107, 31, 4);
+      }
+      .b {
+        color: rgb(22, 56, 56);
+      }
+
+      /*id has a higher precedence than class*/
+    </style>
+  </head>
+  <body>
+    <h1>Learning HTML Tags</h1>
+
+    <p>
+      <b>Lorem ipsum dolor sit</b> Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Velit, nostrum.<i>Lorem ipsum dolor sit.</i>Lorem ipsum
+      dolor sit amet consectetur, adipisicing elit. Cumque, veniam similique.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit <span id="first-span"> amet consectetur</span>,
+      adipisicing elit. Reprehenderit sit qui, voluptate minima dolorem eligendi
+      mollitia iste enim praesentium soluta, accusamus magni nisi consectetur
+      cum vel ipsum nam nemo! Quam excepturi quod pariatur nihil aut, voluptatum
+      <b
+        ><i
+          >Lorem ipsum dolor sit amet
+          <span id="second-span"> amet consectetur</span>consectetur adipisicing
+          elit. Dolore!</i
+        ></b
+      >cumque porro! Doloremque tempora ipsum debitis ab adipisci. Debitis!
+    </p>
+
+    <!-- imgae From placehold.co. Add the /orange/white orange  against white -->
+    <img
+      src="https://placehold.co/600x400/orange/white"
+      alt="placehokder image"
+    />
+
+    <a href="lesson1.html"
+      ><h1>Lesson 1</h1>
+      <img
+        src="https://placehold.co/400x400/blue/white?text=Hello+World"
+        alt=""
+      />
+    </a>
+
+    <!-- (p>lorem)*4 -->
+    <p class="a">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At, tempore.
+      Quis, nemo, quae itaque ipsum tempore voluptatum, perspiciatis nam harum
+      est nihil possimus mollitia. Dolor officia sint temporibus iure?
+      Excepturi?
+    </p>
+    <p class="a">
+      Necessitatibus, perferendis? Iure facere deserunt quisquam quaerat, non
+      blanditiis tenetur ex assumenda fugit distinctio magnam architecto. At non
+      odio necessitatibus repellat porro harum in est dicta sit eos. Illum,
+      libero!
+    </p>
+    <p class="b">
+      Id debitis architecto vel vitae fuga consequuntur totam omnis eius nam
+      asperiores iste vero suscipit, iure deleniti incidunt commodi modi ullam
+      blanditiis, distinctio recusandae in quia qui. Rerum, dolor voluptate!
+    </p>
+    <p class="b">
+      Omnis nesciunt quidem consequatur mollitia labore ipsa corrupti dolor
+      provident neque cum, dolores cupiditate obcaecati voluptate iusto alias
+      placeat vitae eos. Asperiores veniam expedita unde rem deserunt
+      perferendis autem et!
+    </p>
+  </body>
+</html>

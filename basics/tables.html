@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      table {
+        width: 50%;
+        font-family: "Raleway", sans-serif;
+      }
+      thead {
+        background-color: rgb(0, 128, 0);
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+      }
+      td {
+        border-bottom: 1px solid rgb(178, 172, 172);
+      }
+
+      th,
+      td {
+        text-align: left;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Name</th>
+          <th>Points</th>
+          <th>Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- (tr>td*5)*5 -->
+        <tr>
+          <!-- table data -->
+          <td>1</td>
+          <td>Tom</td>
+          <td>77</td>
+          <td>Chelsea</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Kimani</td>
+          <td>89</td>
+          <td>Tottenham</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Ndugi</td>
+          <td>55</td>
+          <td>Arsenal</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Dennis</td>
+          <td>69</td>
+          <td>Liverpool</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Mary</td>
+          <td>74</td>
+          <td>Newcastle</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
