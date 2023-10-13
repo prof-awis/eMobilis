@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+      }
+
+      nav {
+        background: rgb(54, 52, 52);
+      }
+
+      nav .container {
+        width: 80%;
+        margin: auto;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav h2 {
+        font-weight: 300;
+      }
+
+      nav ul {
+        list-style-type: none;
+        display: flex;
+      }
+
+      nav li {
+        padding: 1rem 2rem;
+      }
+
+      nav li a {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.4s;
+      }
+      nav li a:hover {
+        color: #e2dcdc;
+        font-size: 1.05rem;
+      }
+      .hero {
+        background: linear-gradient(
+            to bottom,
+            rgba(219, 219, 222, 0.12),
+            rgba(25, 24, 25, 0.93)
+          ),
+          url(transport.jpg);
+        filter: brightness(80%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+
+      .hero div {
+        width: 70%;
+      }
+
+      .hero h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        font-weight: 700;
+        text-align: center;
+      }
+      .hero p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 600px) {
+        nav .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <h2>MC Transporters</h2>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div>
+        <h1>Welcome</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ex a,
+          vel aspernatur libero tenetur consequatur distinctio perferendis
+          laboriosam blanditiis eaque inventore quibusdam ipsam quis nobis
+          facere quos odio minima. Nostrum quaerat, amet aspernatur facere in ut
+          similique veritatis quo atque. Aspernatur nemo cum ad nam quasi
+          consequatur totam fuga qui esse incidunt, beatae eius.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
